@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-commerce</title>
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="section-Navbar">
+        <div class="navbar">
+            <div class="left-Content">
+                <img src="./Publics/E commerce Logo.jpg" alt="E-commerce logo">
+                <input type="text" id="searchBar" placeholder="Search...">
+            </div>
+            <div class="right-Content">
+                <a href="./"><img src="https://www.freeiconspng.com/thumbs/cart-icon/basket-cart-icon-27.png"
+                        alt="cart logo"></a>
+                <p>Login / SignUP</p>
+            </div>
+        </div>
+        <section class="top-Bar">
+            <div class="main-Bar">
+                <div class="background-Text">
+                    <h1>ONLINE</h1>
+                    <img src="./Publics/Model image.png" alt="model img">
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <!-- Category -->
+    <div class="category-Section">
+        <ul>
+            <li data-category="all">All category</li>
+            <li data-category="men's clothing">Men fashion</li>
+            <li data-category="women's clothing">Women Fashion</li>
+            <li data-category="electronics">Electronics</li>
+            <li data-category="jewelery">jewelery</li>
+        </ul>
+    </div>
+
+    <!-- main -->
+    <div class="error-page">
+        <img src="./Publics/Error img.webp" alt="">
+    </div>
+    <div class="main-Body">
+        <aside class="aside-Container">
+            <div class="filter-Section">
+                <div class="price-Filter-Section">
+                    <h2>Filter Price</h2>
+                    <label class="range-Label">$0</label>
+                    <input type="range" id="priceRange" min="0" max="100" value="0">
+                </div>
+            </div>
+            <div class="total-Price-Section">
+            </div>
+        </aside>
+        <main class="grid-Container">
+        </main>
+    </div>
+    <div class="load-More-Button">
+        <button class="loadBtn">Load more</button>
+    </div>
+    <script type="module" src="./src/script.js"></script>
+</body>
+
+</html>
